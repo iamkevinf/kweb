@@ -1,5 +1,4 @@
 <?php
-
 /*   网站验证码程序
  *   运行环境： PHP5.0.18 下调试通过
 *   需要 gd2 图形库支持（PHP.INI中 php_gd2.dll开启）
@@ -13,7 +12,6 @@ for($i=0;$i<4;$i++){
 }
 //4位验证码也可以用rand(1000,9999)直接生成
 //将生成的验证码写入session，备验证页面使用
-Session_start();
 $_SESSION["check"] = $num;
 //创建图片，定义颜色值
 Header("Content-type: image/PNG");
