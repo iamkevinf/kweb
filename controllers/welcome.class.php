@@ -8,6 +8,7 @@ class Welcome extends Controller
 		$row    = $model->fetch($res, 'array');  //处理结果集返回数组
 
 		$this->assign('title', $row['username']);
+		$this->assign('body', 'my zy! lalala ;)');
         $this->display('index');
 	}
 
