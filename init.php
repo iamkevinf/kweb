@@ -1,8 +1,8 @@
 <?php
 header("Content-type:text/html;charset=utf-8");
 !defined('ROOT_PATH') && define('ROOT_PATH', str_replace('\\', '/', dirname(__FILE__)));
-require ROOT_PATH . '/core/config.php'; //ÒýÈëÅäÖÃÎÄ¼þ
-require ROOT_PATH . '/core/controller.class.php'; //ÒýÈë¿ØÖÆÆ÷ÀàÎÄ¼þ
-require ROOT_PATH . '/core/view.class.php'; //ÊÓÍ¼ÀàÎÄ¼þ
-require ROOT_PATH . '/core/model.class.php'; //Ä£ÐÍÀàÎÄ¼þ
+require ROOT_PATH . '/core/config.php'; //å¼•å…¥é…ç½®æ–‡ä»¶
+require ROOT_PATH . '/core/controller.class.php'; //å¼•å…¥æŽ§åˆ¶å™¨ç±»æ–‡ä»¶
+require ROOT_PATH . '/core/view.class.php'; //è§†å›¾ç±»æ–‡ä»¶
+require ROOT_PATH . '/core/model.class.php'; //æ¨¡åž‹ç±»æ–‡ä»¶
 ?>

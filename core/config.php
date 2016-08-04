@@ -1,12 +1,12 @@
 <?php
 $C = array(
-'URL_MODE'     => 2,    //URLÄ£Ê½, 1ÆÕÍ¨Ä£Ê½, 2 PATH_INFOÄ£Ê½
-'DEFAULT_CONTROL'   => 'welcome',  //Ä¬ÈÏµ÷ÓÃµÄ¿ØÖÆÆ÷
-'DEFAULT_ACTION'   => 'index',   //Ä¬ÈÏÖ´ÐÐµÄ·½·¨
-'DB_HOST'     => 'localhost',  //mysqlÖ÷»ú
-'DB_USER'     => 'root',   //mysqlÓÃ»§
-'DB_PWD'     => '123.com',    //mysqlÃÜÂë
-'DB_CHAR'     => 'utf8',   //×Ö·û¼¯
-'DB_NAME'     => 'db1th',   //Ê¹ÓÃµÄÊý¾Ý¿â
+'URL_MODE'     => 2,    //URLæ¨¡å¼, 1æ™®é€šæ¨¡å¼, 2 PATH_INFOæ¨¡å¼
+'DEFAULT_CONTROL'   => 'welcome',  //é»˜è®¤è°ƒç”¨çš„æŽ§åˆ¶å™¨
+'DEFAULT_ACTION'   => 'index',   //é»˜è®¤æ‰§è¡Œçš„æ–¹æ³•
+'DB_HOST'     => 'localhost',  //mysqlä¸»æœº
+'DB_USER'     => 'root',   //mysqlç”¨æˆ·
+'DB_PWD'     => '123.com',    //mysqlå¯†ç 
+'DB_CHAR'     => 'utf8',   //å­—ç¬¦é›†
+'DB_NAME'     => 'db1th',   //ä½¿ç”¨çš„æ•°æ®åº“
 );
 ?>

@@ -1,12 +1,12 @@
 <?php
 
 	class Compile{
-		private $template;	//待编译的文件
-		private $content;	//需要替换的文本
-		private $comfile;		//编译后的 文件
+		private $template;	//寰呯紪璇戠殑鏂囦欢
+		private $content;	//闇�瑕佹浛鎹㈢殑鏂囨湰
+		private $comfile;		//缂栬瘧鍚庣殑 鏂囦欢
 		private $left = '{';		
 		private $right = '}';
-		private $value =array();  // 值栈
+		private $value =array();  // 鍊兼爤
 		private $phpTurn;
 		private $T_P = 	array();
 		private $T_R = array();
@@ -23,7 +23,7 @@
 				//$this->T_R[]="";
 			}
 			//echo "123";
-			//正则匹配 {$xxx} 格式
+			//姝ｅ垯鍖归厤 {$xxx} 鏍煎紡
 			$this->T_P[]="#\{\\$([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)\}#";
 			$this->T_R[]="<?php echo \$this->value['\\1'];?>";
 		}
